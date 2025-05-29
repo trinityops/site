@@ -2,8 +2,7 @@
 
 ## Setup
 
-* https://tabler.io/icons
-
+- https://tabler.io/icons
 
 ## Original
 
@@ -77,7 +76,6 @@ We're embarking on an exciting journey with **AstroWind 2.0**, and we want you t
 [Share Your Feedback in Our Discussion!](https://github.com/onwidget/astrowind/discussions/392)
 
 <br>
-
 
 ## TL;DR
 
