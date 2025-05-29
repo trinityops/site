@@ -10,8 +10,8 @@ site:
 metadata:
   title:
     default: TrinityOps
-    template: '%s — TrinityOps'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    template: '%s — Stable. Self-Hosted. Sovereign.'
+  description: "\u2693 DevOps and Kubernetes infrastructure consulting focused on GitOps, liberty, and self-hosted resilience."
   robots:
     index: true
     follow: true
