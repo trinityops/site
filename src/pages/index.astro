@@ -7,7 +7,7 @@ import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+// import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -25,22 +25,22 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Pricing',
-        href: '/pricing',
+        text: 'Schedule a Consult',
+        href: '/contact',
         target: '_blank',
         icon: 'tabler:receipt-2',
       },
-      { text: 'Learn more', href: '#features' },
+      { text: 'Our Mission', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image', width: 700,  height: 700,}}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'TrinityOps Image', width: 700,  height: 700,}}
   >
     <Fragment slot="title">
-      Freedom-Built Systems 
+      Freedom-Built Systems. Eliminate Toil.
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">TrinityOps</span> helps startups and small teams simplify Kubernetes, reduce cloud waste, and reclaim ownership with scalable, self-hosted platforms.</span
+        <span class="font-semibold">TrinityOps</span> helps startups and technical teams simplify Kubernetes, eliminate cloud waste, and reclaim ownership with lean, self-hosted platforms — all grounded in conviction, clarity, and technical excellence.</span
       >
       <!-- <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
@@ -57,8 +57,8 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="You don’t need more complexity. You need clarity."
-    subtitle="We help you build infrastructure that’s stable, observable, and yours — no vendor bloat, no noise."
+    title="Our Philosophy: Clarity, Stewardship, and Sovereignty"
+    subtitle="You don’t need more complexity. You need infrastructure that’s stable, observable, and truly yours — no vendor bloat, no chaos."
     items={[
       {
         title: '🛠️ Simplify the Stack',
@@ -84,20 +84,39 @@ const metadata = {
           'We train and mentor aspiring technologists — and integrate them into meaningful, real-world infrastructure work.',
         icon: 'tabler:rocket',
       },
-      // {
-      //   title: 'Search Engine Optimization (SEO)',
-      //   description:
-      //     "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-      //   icon: 'tabler:arrows-right-left',
-      // },
-      // {
-      //   title: 'Open to new ideas and contributions',
-      //   description:
-      //     'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-      //   icon: 'tabler:bulb',
-      // },
     ]}
   />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Reclaim Your Stack. Rebuild with Purpose."
+    subtitle="We help founders, engineers, and mission-driven teams anchor their infrastructure in what matters: performance, ownership, and peace of mind."
+  >
+  </Features2>
+
+  <!-- CallToAction Widget *********** -->
+
+  <!-- <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Reclaim Your Stack. Rebuild with Purpose.',
+        href: '',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
+      waste more time! :P
+    </Fragment>
+  </CallToAction> -->
 
   <!-- Content Widget **************** -->
 
@@ -107,19 +126,29 @@ const metadata = {
     title="Our Mission"
     items={[
       {
-        title: 'Built on top of Astro 5.0',
+        title: '🛡️ Anchored Infrastructure',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'We believe infrastructure should reflect your core values — clarity, stability, and ownership. TrinityOps helps you build platforms that aren’t just functional, but dependable and self-sustaining, free from vendor lock-in and cloud bloat.',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: '⚙️ Built with Conviction',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'Every system we touch is built with purpose. From backups to observability, from Helm to ArgoCD, we prioritize clean, repeatable infrastructure that serves your team — not the other way around.',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: '🧱 Freedom Through Self-Hosting',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          "TrinityOps empowers you to own what you build. Whether you're running Kubernetes on the edge or backing up ScyllaDB to object storage, we design systems that stay in your control — cost-effective, performant, and free from third-party gatekeepers.",
+      },
+      {
+        title: '🧑‍🏫 Mentorship in Motion',
+        description:
+          'We don’t just build — we teach. We actively mentor high school students and aspiring technologists, giving them hands-on experience with Linux, Docker, and infrastructure fundamentals. That means your systems are built with the future in mind.',
+      },
+      {
+        title: 'Driven by Stewardship',
+        description:
+          'TrinityOps is grounded in faith and the belief that technology, like everything else, should be stewarded with excellence. We operate with integrity, patience, and a desire to build things that last — because good systems, like good values, endure.',
       },
     ]}
     image={{
@@ -139,7 +168,7 @@ const metadata = {
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isAfterContent
     items={[
       {
@@ -172,11 +201,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     isAfterContent
     items={[
@@ -210,11 +239,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
+  <!-- <Steps
     title="Get your dream website up and running in no time with AstroWind."
     items={[
       {
@@ -244,11 +273,11 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />
+  /> -->
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
+  <!-- <Features2
     title="Most used widgets"
     subtitle="Provides frequently used components for building websites using Tailwind CSS"
     tagline="Components"
@@ -308,17 +337,17 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Features2>
+  </Features2> -->
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts
+  <!-- <BlogLatestPosts
     title="Find out more content in our Blog"
     information={`The blog is used to display AstroWind documentation.
                         Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
                         Astro is a very interesting technology. Thanks.
                 `}
-  />
+  /> -->
 
   <!-- FAQs Widget ******************* -->
 
@@ -362,7 +391,7 @@ const metadata = {
   />
 
   <!-- Stats Widget ****************** -->
-
+<!-- 
   <Stats
     stats={[
       { title: 'Downloads', amount: '132K' },
@@ -370,7 +399,7 @@ const metadata = {
       { title: 'Forks', amount: '10.3K' },
       { title: 'Users', amount: '48.4K' },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
@@ -378,20 +407,19 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Start a Free Discovery Call',
+        href: '/contact',
         target: '_blank',
         icon: 'tabler:download',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Reclaim Your Stack. Rebuild with Purpose.
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      We help founders, engineers, and mission-driven teams anchor their infrastructure in what matters: performance, ownership, and peace of mind.
     </Fragment>
   </CallToAction>
 </Layout>
