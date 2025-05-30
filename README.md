@@ -4,6 +4,8 @@
 
 - https://tabler.io/icons
 
+Current background color: 7 10 29
+
 ## Original
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
