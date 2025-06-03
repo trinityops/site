@@ -4,6 +4,10 @@ import { getPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
+      text: 'Services',
+      href: getPermalink('/services'),
+    },
+    {
       text: 'Pricing',
       href: getPermalink('/pricing'),
     },
@@ -15,14 +19,11 @@ export const headerData = {
       text: 'Contact',
       href: getPermalink('/contact'),
     },
-    {
-      text: 'Terms',
-      href: getPermalink('/terms'),
-    },
-    {
-      text: 'Privacy policy',
-      href: getPermalink('/privacy'),
-    },
+
+    // {
+    //   text: 'Privacy policy',
+    //   href: getPermalink('/privacy'),
+    // },
     // {
     //   text: 'Homes',
     //   links: [
