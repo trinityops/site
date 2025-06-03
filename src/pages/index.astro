@@ -11,6 +11,7 @@ import Content from '~/components/widgets/Content.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 // import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
 
 const metadata = {
   title: 'TrinityOps — Freedom-Built Systems',
@@ -30,17 +31,15 @@ const metadata = {
         target: '_blank',
         icon: 'tabler:receipt-2',
       },
-      { text: 'Our Mission', href: '#features' },
+      { text: 'What We Deliver', href: '#features' },
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'TrinityOps Image', width: 700, height: 700 }}
   >
-    <Fragment slot="title"> Reclaim Your Stack. Build with Clarity. </Fragment>
+    <Fragment slot="title">Stable. Streamlined. Purpose-Driven Infrastructure.</Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">TrinityOps</span> helps startups and technical teams simplify Kubernetes, eliminate cloud
-        waste, and reclaim ownership with lean, self-hosted platforms — all grounded in conviction, clarity, and technical
-        excellence.</span
+        <span class="font-semibold">TrinityOps</span> helps startups and teams simplify infrastructure, improve reliability, and scale with confidence. From SRE and GitOps to automation, observability, and tooling.</span
       >
       <!-- <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
@@ -50,38 +49,38 @@ const metadata = {
 
   <!-- Note Widget ******************* -->
 
-  <Note title="Philosophy:" description="We build infrastructure you can understand, operate, and own." />
+  <Note title="Philosophy:" description="Infrastructure designed for clarity, control, and long-term sustainability." />
 
   <!-- Features Widget *************** -->
 
   <Features
     id="features"
     tagline="Features"
-    title="Our Philosophy: Clarity, Stewardship, and Sovereignty"
-    subtitle="You don’t need more complexity. You need infrastructure that’s stable, observable, and truly yours — no vendor bloat, no chaos."
+    title="What We Deliver"
+    subtitle="Trusted expertise in infrastructure, observability, and automation — delivered with clarity, reliability, and long-term impact."
     items={[
       {
-        title: '🛠️ Simplify the Stack',
+        title: '🧠 Resilient Infrastructure Design',
         description:
-          'We turn complex infrastructure into clean, GitOps-powered systems using Helm, ArgoCD, Alloy, and minimal tooling.',
+          'Site reliability engineering (SRE), on-call readiness, and observability you can trust — built around metrics that matter.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: '🧱 Own What You Build',
+        title: '⚙️ DevOps & GitOps Engineering',
         description:
-          'Ditch cloud lock-in. We help you self-host critical workloads and keep full control — from backups to observability.',
+          'GitOps workflows using Helm, ArgoCD, and IaC principles to streamline deployments and scale with confidence.',
         icon: 'tabler:components',
       },
       {
-        title: '📉 Cut Waste, Keep Power',
+        title: '📊 Cost Optimization & Architecture Review',
         description:
-          'Reduce your cloud spend without compromising reliability. Replace SaaS bills with high-performance, homelab-inspired solutions.',
+          'Evaluate your infrastructure with fresh eyes. We identify inefficiencies, right-size your cloud footprint, and recommend smart alternatives — including self-hosted or leaner tools where they provide long-term value.',
         icon: 'tabler:list-check',
       },
       {
-        title: '🤝 Mentorship That Scales',
+        title: '🔁 Automation, CI/CD, & Tooling',
         description:
-          'We train and mentor aspiring technologists — and integrate them into meaningful, real-world infrastructure work.',
+          'From pipelines to provisioning — eliminate toil with clean, repeatable automation and secure release workflows.',
         icon: 'tabler:rocket',
       },
     ]}
@@ -90,8 +89,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Reclaim Your Stack. Rebuild with Purpose."
-    subtitle="We help founders, engineers, and mission-driven teams anchor their infrastructure in what matters: performance, ownership, and peace of mind."
+    title="Reclaim Your Stack. Build with Purpose."
+    subtitle="TrinityOps partners with founders, engineers, and teams to simplify infrastructure, reduce spend, and scale with clarity. We focus on durable systems, practical tooling, and long-term support strategies that help your team operate with confidence, not chaos."
   />
 
   <!-- CallToAction Widget *********** -->
@@ -122,22 +121,22 @@ const metadata = {
   <Content
     isReversed
     tagline="Schedule a Free Consult"
-    title="Our Mission"
+    title="Our Mission: Engineering with Intentionality"
     items={[
       {
-        title: '🛡️ Anchored Infrastructure',
+        title: 'Process Before Platform',
         description:
-          'We believe infrastructure should reflect your core values — clarity, stability, and ownership. TrinityOps helps you build platforms that aren’t just functional, but dependable and self-sustaining, free from vendor lock-in and cloud bloat.',
+          "Our process begins with a deep analysis of your team's workflows and operational constraints, then design tooling and infrastructure that fit, not force, your operations.",
       },
       {
-        title: '⚙️ Built with Conviction',
+        title: 'Delivery You Can Depend On',
         description:
-          'Every system we touch is built with purpose. From backups to observability, from Helm to ArgoCD, we prioritize clean, repeatable infrastructure that serves your team — not the other way around.',
+          'Every solution results in tested systems, clear documentation, and a structured handoff, no surprises, no shortcuts.',
       },
       {
-        title: '🧱 Freedom Through Self-Hosting',
+        title: 'Infrastructure That Grows With You',
         description:
-          "TrinityOps empowers you to own what you build. Whether you're running Kubernetes on the edge or backing up ScyllaDB to object storage, we design systems that stay in your control — cost-effective, performant, and free from third-party gatekeepers.",
+          "We help you plan ahead. Whether you're scaling, hiring, or shifting platforms, we help keep systems adaptable and resilient.",
       },
     ]}
     image={{
@@ -161,19 +160,19 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: '🧑‍🏫 Mentorship in Motion',
+        title: '🌐 Multi-Cloud',
         description:
-          'We don’t just build — we teach. We actively mentor high school students and aspiring technologists, giving them hands-on experience with Linux, Docker, and infrastructure fundamentals. That means your systems are built with the future in mind.',
+          'Leverage the least expensive, most reliable, and most secure cloud providers.',
       },
       {
-        title: 'Driven by Stewardship',
+        title: 'Development',
         description:
-          'TrinityOps is grounded in faith and the belief that technology, like everything else, should be stewarded with excellence. We operate with integrity, patience, and a desire to build things that last — because good systems, like good values, endure.',
+          'Mistakes can be very expensive. Self-hosted development environments help reduce cost and help better understand utilization.',
       },
       {
         title: 'Designed for Ownership and Long-Term Simplicity',
         description:
-          'We don’t build snowflakes. TrinityOps systems are designed to be understood, maintained, and adapted — by you or your team, long after we’re done.',
+          'We don’t build snowflakes. TrinityOps systems are designed to be understood, maintained, adapted and owned, long after we’re done.',
       },
     ]}
     image={{
@@ -187,6 +186,37 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="Who We Work With"
+    subtitle="Teams who need SRE or Platform engineering support, but can't hire a full time staff."
+    isReversed={true}
+    callToAction={{
+      text: 'See more',
+      href: '/pricing',
+    }}
+    items={[
+      {
+        title: 'Startups',
+        description: 'Early-stage teams who need their first real platform built right',
+        icon: 'tabler:globe',
+      },
+      {
+        title: 'Growing Companies that need scale',
+        description:
+          'Growing companies that need GitOps, logging, backups, or observability',
+        icon: 'tabler:message-star',
+      },
+      {
+        title: "Teams who can't spend all their time on DevOps and infrastructure",
+        description:
+          'Founders trying to untangle legacy or scale safely',
+        icon: 'tabler:award',
+      },
+    ]}
+  />
 
   <!-- Content Widget **************** -->
 
@@ -343,42 +373,42 @@ const metadata = {
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: '🧠 What does TrinityOps actually do?',
+        title: 'What services does TrinityOps provide?',
         description:
           'TrinityOps helps startups and small teams simplify their infrastructure. We build self-hosted, cost-efficient platforms using Kubernetes, Helm, ArgoCD, and observability tools like Alloy and Loki. We also mentor aspiring technologists and teach practical DevOps from the ground up.',
       },
       {
-        title: '🌐 Do you only work with self-hosted systems?',
+        title: 'Do you only work with self-hosted systems?',
         description:
           "Self-hosting is our specialty — but not a requirement. We help teams avoid unnecessary cloud dependency and design hybrid solutions where it makes sense. If you're using GKE, EKS, or DigitalOcean, we can still help you clean up, secure, and simplify your stack.",
       },
       {
-        title: '💵 How much do your services cost?',
+        title: 'What are your consulting rates and project costs?',
         description:
           'Our consulting rates start at $199/hour, or via fixed-scope engagements ranging from $5K–$25K depending on the size and urgency of the work. We also offer mentorship and field support at reduced rates through our apprenticeship program.',
       },
       {
-        title: '🚫 Why are you so against cloud lock-in?',
+        title: 'Why does TrinityOps care about avoiding cloud lock-in?',
         description:
-          "Because freedom matters — technically, financially, and philosophically. We've seen too many teams locked into bloated platforms that drain resources and flexibility. Our mission is to give you back control over your data, systems, and budget.",
+          "Because freedom matters: technically, financially, and philosophically. We've seen too many teams locked into bloated platforms that drain resources and flexibility. Our mission is to give you back control over your data, systems, and budget.",
       },
       {
-        title: '📉 Can you really reduce our cloud costs?',
+        title: 'Can TrinityOps help reduce our cloud or SaaS spend?',
         description:
-          'Yes — in some cases by thousands per month. By replacing expensive SaaS tools with self-hosted equivalents, right-sizing infrastructure, and eliminating unused services, we help teams keep performance high while spending less.',
+          'Yes, in some cases by thousands per month or more. By replacing expensive SaaS tools with self-hosted equivalents, right-sizing infrastructure, and eliminating unused services, we help teams keep performance high while spending less.',
       },
       {
-        title: '🧑‍🏫 Can you train my team?',
+        title: 'Do you offer training, workshops, or mentoring?',
         description:
           'Absolutely. We love teaching. We can run private DevOps workshops, train your junior engineers on your own systems, or even help build out internal documentation and onboarding guides.',
       },
       {
-        title: '🧒 Who are your mentees?',
+        title: 'Can you work within our compliance or security requirements?',
         description:
-          "We currently mentor a small group of high school students who are learning Linux, Docker, infrastructure fundamentals, and real-world client workflows. They're bright, respectful, and sometimes assist in safe, supervised project work.",
+          "Yes. We regularly work with clients who require SOCs, PCI, change management approvals, and secure tooling. We’re comfortable adapting to your standards.",
       },
       {
-        title: 'What values are important to your business?',
+        title: 'What principles guide how you work with clients?',
         description:
           'TrinityOps values integrity, stewardship, and service. We approach our work with a sense of calling and responsibility, aiming to build systems (and relationships) that are honest, thoughtful, and enduring.',
       },
@@ -396,6 +426,32 @@ const metadata = {
     ]}
   /> -->
 
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Where and How We Work"
+    tagline="Find us"
+    columns={4}
+    items={[
+      {
+        title: 'Remote US',
+        description: 'All US timezones',
+      },
+      {
+        title: 'Hybrid',
+        description: 'Remote and on-site',
+      },
+      {
+        title: 'After hours',
+        description: 'Support available',
+      },
+      {
+        title: 'On-site',
+        description: 'We serve Southern Arizona',
+      },
+    ]}
+  />
+
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
@@ -409,11 +465,10 @@ const metadata = {
       },
     ]}
   >
-    <Fragment slot="title"> Reclaim Your Stack. Rebuild with Purpose. </Fragment>
+    <Fragment slot="title">Let’s Build Something That Lasts</Fragment>
 
     <Fragment slot="subtitle">
-      We help founders, engineers, and mission-driven teams anchor their infrastructure in what matters: performance,
-      ownership, and peace of mind.
+      Whether you need a resilient platform, a guided migration, or a team that can troubleshoot and document everything — TrinityOps is ready to help. We deliver practical infrastructure and DevOps support that’s as dependable as the people behind it.
     </Fragment>
   </CallToAction>
 </Layout>
