@@ -12,7 +12,9 @@ This Privacy Policy explains how TrinityOps LLC collects, uses, and protects you
 ### Definitions
 
 - **Company** (referred to as “TrinityOps”, “we”, “us”, or “our”) refers to TrinityOps LLC, based in Arizona, United States.
-- **Website** refers to TrinityOps, accessible at [https://trinityops.x](https://trinityops.x).
+- **Website** refers to TrinityOps, accessible at [https://trinityops.dev
+](https://trinityops.dev
+).
 - **Service** means the Website and any consulting, training, or support services offered by the Company.
 - **Personal Data** means any information that relates to an identified or identifiable individual.
 - **Usage Data** means data collected automatically, such as browser type, time on page, or device info.
@@ -97,7 +99,9 @@ To request access or deletion, email: [trinityopsx@gmail.com](mailto:trinityopsx
 
 ## Changes to This Policy
 
-We may update this Privacy Policy from time to time. The latest version will always be available at [trinityops.x/privacy](https://trinityops.x/privacy), with the updated effective date listed above.
+We may update this Privacy Policy from time to time. The latest version will always be available at [trinityops.dev
+/privacy](https://trinityops.dev
+/privacy), with the updated effective date listed above.
 
 We recommend reviewing this policy periodically for updates.
 
@@ -107,4 +111,6 @@ For questions or concerns about this Privacy Policy, contact:
 
 **TrinityOps LLC**  
 Email: [trinityopsx@gmail.com](mailto:trinityopsx@gmail.com)  
-Website: [https://trinityops.x](https://trinityops.x)
+Website: [https://trinityops.dev
+](https://trinityops.dev
+)
