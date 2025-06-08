@@ -1,7 +1,6 @@
 site:
   name: TrinityOps
-  site: 'https://trinityops.dev
-'
+  site: 'https://trinityops.dev'
   base: '/'
   trailingSlash: false
 

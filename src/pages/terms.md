@@ -84,5 +84,4 @@ For questions about these Terms, please contact:
 **TrinityOps LLC**  
 Email: trinityopsx@gmail.com
 Website: [https://trinityops.dev
-](https://trinityops.dev
-)
+](https://trinityops.dev)
