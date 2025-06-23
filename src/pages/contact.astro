@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 // import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Contact',
@@ -14,6 +15,20 @@ const metadata = {
 
   <HeroText tagline="Contact" title="Let's Connect!" />
 
+  <CallToAction
+    title="Ready to move forward?"
+    subtitle="Whether you're exploring a new project, need a second set of eyes on your infrastructure, or want to simplify your stack — let’s talk.\nSchedule a free discovery call and see how TrinityOps can help your team build with clarity, confidence, and purpose."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Schedule a Call',
+        href: 'https://calendar.app.google/WViBQvZXQVg4Gf1j9',
+        target: '_blank',
+        rel: 'noopener',
+        icon: 'tabler:calendar',
+      },
+    ]}
+  />
   <!-- <ContactUs
     id="form"
     title="Drop us a message today!"
@@ -70,9 +85,9 @@ const metadata = {
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: 'Arizona, USA',
-        icon: 'tabler:map-pin',
+        title: 'Calendar',
+        description: 'https://bit.ly/40hSiGl',
+        icon: 'tabler:calendar-week',
       },
     ]}
   />

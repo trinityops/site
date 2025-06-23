@@ -197,8 +197,10 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'http://linkedin.com/company/trinityops-dev' },
+    { ariaLabel: 'Discord', icon: 'tabler:brand-discord', href: 'https://discord.gg/48QEYBBNWC' },
     // { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    // { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
+    { ariaLabel: 'Substack', icon: 'simple-icons:substack', href: 'https://trinityops.substack.com/' },
     // { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/trinityops' },
