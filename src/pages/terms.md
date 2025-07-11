@@ -82,6 +82,6 @@ We may update these Terms and Conditions from time to time. Changes will be post
 For questions about these Terms, please contact:
 
 **TrinityOps LLC**  
-Email: trinityopsx@gmail.com
+Email: sales@trinityops.dev
 Website: [https://trinityops.dev
 ](https://trinityops.dev)

@@ -94,7 +94,7 @@ You have the right to:
 - Opt out of cookies or analytics
 - Withdraw consent for communication
 
-To request access or deletion, email: [trinityopsx@gmail.com](mailto:trinityopsx@gmail.com)
+To request access or deletion, email: [sales@trinityops.dev](mailto:sales@trinityops.dev)
 
 ## Changes to This Policy
 
@@ -109,6 +109,6 @@ We recommend reviewing this policy periodically for updates.
 For questions or concerns about this Privacy Policy, contact:
 
 **TrinityOps LLC**  
-Email: [trinityopsx@gmail.com](mailto:trinityopsx@gmail.com)  
+Email: [sales@trinityops.dev](mailto:sales@trinityops.dev)  
 Website: [https://trinityops.dev
 ](https://trinityops.dev)
